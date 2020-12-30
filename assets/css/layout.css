@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    height:  100px;
+    background-color: navy;
+}
+aside{
+    width: 30%;
+    height: 500px;
+    background-color: orange;
+    float: left;
+}
+main{
+    width: 70%;
+    height: 500px;
+    background-color: gray;
+    float: left;
+    opacity: .5;
+}
+footer{
+    clear: left;
+    height:  100px;
+    background-color: green;
+
+}
+
+/*navigation css*/
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+}
+ul.navigation{
+    list-style-type: none;
+    padding: 0;
+
+}
+ul.navigation > li{
+    height: 3rem;
+    line-height: 3rem;
+    background-color: lightgreen;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+ul.navigation > li > a{
+    display: block;
+}
+ul.navigation > li > a:link{
+    text-decoration: none;
+    color: #222;
+}
+ul.navigation > li > a:hover{
+    background-color: green;
+    color: #fff;
+}
+.clicked{
+    background-color: orangered !important;
+    color: #fff;
+}

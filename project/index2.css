@@ -1,0 +1,88 @@
+#section > #aside {
+    width: 17%;
+    height: 100%;
+    float: left;
+}
+#picNav {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    background: url('sofa.png') no-repeat center center;
+    background-size: contain;
+}
+#sideNav {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 10px;
+}
+#sideNav li > a {
+    color: black;
+    padding-right: 0;
+    padding-bottom: 5px;
+}
+#sideNav div.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    margin-left: -5px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#sideNav li > div > a {
+    color: gray;
+    font-size: 13px;
+    padding-right: 0;
+    padding-top: 5px;
+}
+#sideNav li > div > a:hover {
+    background-color: transparent;
+    color: salmon;
+}
+#sideNav li > div > a:active {
+    font-weight: bold;
+    color: salmon;
+}
+#familySite {
+    width: 80%;
+    height: 8rem;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    background-color: rgba(192, 192, 192, 0.192);
+}
+#familySite > div:first-child {
+    font-family: 'Tangerine', cursive;
+    font-size: 20pt;
+    color: gray;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#familySite > div:nth-child(2) > a, #familySite > div:nth-child(3) > a {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 13px;
+    color: gray;
+    padding-left: 1.5rem;
+    text-decoration-line: none;
+}
+#section > #main {
+    width: 83%;
+    height: 100%;
+    overflow-y: auto;
+}
+.location{
+    position: absolute;
+    top: 35%;
+    right: 13.8%;
+    color: gray;
+}
+.location a {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+h3 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+h2, h4 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: #8c704f;
+}

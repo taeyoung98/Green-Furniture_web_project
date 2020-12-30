@@ -1,0 +1,52 @@
+#top{
+    position: relative;
+    left: 92%;
+    top: 20px;
+}
+.footer{
+    padding-top: 500px;
+}
+#sns{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+div.left{
+    width: 23%;
+    height: 1000px;
+    float: left;
+    overflow: auto;
+}
+div.right{
+    width: 77%;
+    height: 1200px;
+    float: right;
+    padding-left: 30px;
+    overflow: auto;
+}
+div.header-left{
+    width: 50%;
+    float: left;
+}
+div.header-right{
+    padding-left: 15%;
+    width: 50%;
+    float: right;
+    color: gray;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    overflow: auto;
+}
+div.header-right a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+table{
+    table-layout: fixed;
+}
+td{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

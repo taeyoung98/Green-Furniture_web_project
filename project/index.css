@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 22%;
+}
+#top {
+    position: absolute;
+    top: 5px;
+    right: 10%;
+}
+#top button, input {
+    font-size: 12px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+#top button {
+    padding: 1px 3px;
+    border: none;
+}
+#top button > a {
+    color: #6c757d;
+    text-decoration-line: none;
+}
+#top button > a:hover {
+    color: #fff;
+}
+#top img#magnifyingGlass {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+#top input {
+    width: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+#top button:last-child {
+    margin-left: 0;
+}
+#logo {
+    margin: 0;
+    padding-top: 4.5rem;
+    text-align: center;
+}
+#logo > a {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 40px;
+    color: #8c704f;
+    text-decoration-line: none;
+}
+nav#basicNav {
+    width: 100%;
+    min-width: 500px !important;
+    height: 7%;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 17px;
+}
+nav#basicNav > ul {
+    width: 80%;
+    border: 3px solid black;
+    border-width: 1.4px 0;
+    /* border는 실제 UI에 들어감(계산에 포함 width 등). 페이지안에서 영역으로 사용
+    outline은 그 위에 쓰임. 영역이 제대로 쓰여졌는지 확인용. 임시적 */ 
+}
+nav#basicNav a.nav-link {
+    padding: 6px 0;
+    color: black;
+    text-align: center;
+}
+nav#basicNav > ul a.nav-link:hover {
+    color: black;
+}
+nav#basicNav div.dropdown-menu {
+    margin: 2px 45px;
+}
+nav#basicNav a.dropdown-item {
+    font-size: 15px;
+}
+nav#basicNav a.dropdown-item:active {
+    background-color: #a0bd67;
+}
+.clicked {
+    background-color: #a0bd67 !important;
+    color: white !important;
+}
+#section {
+    width: 80%;
+    height: 170%;
+    margin: 0 auto;
+}
+.breadcrumb {
+    padding-left: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+}
+.breadcrumb-item a {
+    text-decoration-line: none;
+    color: #9c9c9c;
+}
+li.breadcrumb-item:nth-child(1) a {
+    padding-left: 0;
+}
+footer#footer {
+    width: 80%;
+    height: 15%;
+    margin: 0 auto;
+    color: #9c9c9c;
+    font-size: 12px;
+}
+#sns {
+    text-align: center;
+}
+#sns div {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: url('sns_sprite.png') no-repeat;
+    border-radius: 20%;
+    margin: 3px;
+}
+#sns div#facebook {
+    background-position: -57px 0; 
+}
+#sns div#naverblog {
+    background-position: 0 -67.509px; 
+}
+#sns div#youtube {
+    background-position: -57px -143px; 
+}
+.floating {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    background: white url('arrowUp.png') no-repeat center center;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px silver;
+}

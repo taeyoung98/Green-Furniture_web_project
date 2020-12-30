@@ -1,0 +1,5 @@
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #2c6aa8;
+}
